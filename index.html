@@ -17,13 +17,26 @@
     <label id="email-label" for="">Email</label>
     <input id="email" type="email" placeholder="Enter your Email" required
       pattern="[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*">
-      <label id="number-label" for="">Age (Optional)</label>
-      <input id="number" type="number" placeholder="Enter your Age" min="7" max="100">
-      <label for="">Which option best describes your role?</label>
-      <select name="role" id="dropdown" required>
-        <option value="student">Student</option>
-        <option value="employ">Employed</option>
-      </select>
+    <label id="number-label" for="">Age (Optional)</label>
+    <input id="number" type="number" placeholder="Enter your Age" min="7" max="100">
+    <label for="">Which option best describes your role?</label>
+    <select name="role" id="dropdown" required>
+      <option value="student">Student</option>
+      <option value="employ">Employed</option>
+    </select>
+    <label for="">Would you recommend freeCodeCamp to a friend?</label>
+    <label>
+      <input name="userChoice" value="Definitely" type="radio" checked>
+      "Definitely"
+    </label>
+    <label>
+      <input name="userChoice" value="Maybe" type="radio">
+      "Maybe"
+    </label>
+    <label>
+      <input name="userChoice" value="not-sure" type="radio">
+      "Not Sure"
+    </label>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
 
