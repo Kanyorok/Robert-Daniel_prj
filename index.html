@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
 
-  <body>
-    <h1>Hello World, we are developers!</h1>
+<head>
+  <meta charset="UTF-8">
+  <title>Fork Me! FCC: Test Suite Template</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- <h1>Hello World, we are developers!</h1> -->
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+  <p id="description">Thank you for taking time to help us improve the platform</p>
+  <form id="survey-form" action="">
+    <label id="name-label" for="">Name</label>
+    <input id="name" type="text" placeholder="Enter your name" required>
+    <label id="email-label" for="">Email</label>
+    <input id="email" type="email" placeholder="Enter your Email" required
+      pattern="[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*">
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    
+
 
     <!--
 
@@ -23,6 +32,7 @@
     - The freeCodeCamp Team
 
     -->
-    <script  src="js/index.js"></script>
-  </body>
+    <script src="js/index.js"></script>
+</body>
+
 </html>
